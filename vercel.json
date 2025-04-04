@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    },
+    {
+      "source": "/calendly-complete",
+      "destination": "https://your-canva-thank-you-page-url.com",
+      "permanent": false
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/thank-you",
+      "destination": "https://your-canva-thank-you-page-url.com",
+      "permanent": false
+    }
+  ]
+}
